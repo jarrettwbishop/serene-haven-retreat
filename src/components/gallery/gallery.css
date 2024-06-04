@@ -1,7 +1,6 @@
 .gallery {
 	background-color: var(--accent);
 	color: var(--background);
-	margin-bottom: 20rem;
 	padding: 4rem 0 4rem 13%;
 	position: relative;
 	margin-left: -13%;
