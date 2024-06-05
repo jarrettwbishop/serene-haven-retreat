@@ -1,0 +1,56 @@
+.amenities {
+	margin: 20rem 0;
+}
+
+.amenities--title {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.amenities--title-title {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+.amenities--title-underline {
+	background-color: var(--primary-600);
+	height: 3px;
+	width: 600px;
+	margin-left: -13%;
+}
+
+.amenities-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 1rem;
+	margin-left: 13%;
+	margin-top: 1rem;
+}
+
+.amenity-card {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-start;
+	padding: 2rem;
+}
+.fa-icon {
+	background-color: var(--primary-600);
+	min-height: 40px;
+	width: 40px;
+	padding: 20px;
+	border-radius: 50%;
+	font-size: 0.5rem;
+	color: var(--accent);
+}
+
+.amenity-card-title {
+	font-size: 2rem;
+}
+
+.amenity-card-description {
+	font-size: 1.1rem;
+	hyphens: none;
+}
