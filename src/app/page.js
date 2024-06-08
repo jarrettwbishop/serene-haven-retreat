@@ -6,6 +6,7 @@ import Amenities from "@/components/amenities/Amenities.jsx";
 import Testimonials from "../components/testimonials/Testimonials.jsx";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import Footer from "@/components/footer/Footer.jsx";
 config.autoAddCss = false;
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 			<Gallery />
 			<Amenities />
 			<Testimonials />
+			<Footer />
 		</>
 	);
 }
