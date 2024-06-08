@@ -7,7 +7,7 @@ const Hero = () => {
 	return (
 		<div className="hero">
 			<div className="hero--cta">
-				<div className="hero--title">
+				<div className="hero--cta-title">
 					<h2>Camping</h2>
 					<h2>
 						Made <span>Easy</span>

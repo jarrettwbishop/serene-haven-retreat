@@ -14,13 +14,13 @@ const PhotoSlider = () => {
 		>
 			<Image
 				src={galleryPhotoOne}
-				height={600}
-				style={{ borderRadius: "1.7rem" }}
+				height={800}
+				style={{ borderRadius: "2.3rem" }}
 			/>
 			<Image
 				src={galleryPhotoOne}
-				height={600}
-				style={{ borderRadius: "1.7rem" }}
+				height={800}
+				style={{ borderRadius: "2.3rem" }}
 			/>
 		</div>
 	);

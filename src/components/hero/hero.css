@@ -2,46 +2,49 @@
 	display: flex;
 	align-items: center;
 	gap: 6rem;
-	margin-top: 3rem;
+	margin: 15rem 0;
+	position: relative;
 }
 
 .hero--cta {
 	display: flex;
 	flex-direction: column;
-	gap: 2.5rem;
-	width: 60%;
+	gap: 2.7rem;
+	width: 50%;
 }
 
-.hero--title {
+.hero--cta-title {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 3rem;
+	margin-top: -3rem;
 }
 
-.hero--title h2 {
-	font-size: 4.5rem;
+.hero--cta-title h2 {
+	font-size: 5rem;
 	line-height: 2.5rem;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 800;
 }
 
-.hero--title h2 span {
+.hero--cta-title h2 span {
 	color: var(--primary-600);
 	text-decoration: underline;
 }
 
 .hero--cta p {
 	font-weight: 600;
-	line-height: 1.4;
+	line-height: 1.5;
 	width: 80%;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: var(--gray-600);
+	hyphens: none;
 }
 
 .hero--cta button {
-	width: 90%;
-	font-size: 2rem;
-	padding: 1.5rem 2rem;
+	width: 80%;
+	font-size: 2.9rem;
+	padding: 2rem 3rem;
 	border-radius: 10px;
 	font-weight: 800;
 }
@@ -51,33 +54,43 @@
 }
 
 .hero--graphic {
-	position: relative;
+	position: absolute;
+	right: -200px;
+	top: -250px;
 }
 
 .graphic-image {
-	height: 600px;
+	height: 800px;
 }
 
 .graphic-text {
 	background-color: var(--accent);
 	position: absolute;
 	top: 20%;
-	left: 10%;
+	left: 5%;
 	color: var(--background);
 	padding: 1.5rem 3.5rem 1.5rem 1.5rem;
 	border-radius: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 1rem;
 }
 
 .graphic-text h4 {
 	color: var(--gray-300);
-	font-weight: 300;
-	font-size: 14px;
+	font-weight: 400;
+	font-size: 1.1rem;
 }
 
 .graphic-text p {
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.7rem;
+	line-height: 1.1;
+}
+
+.graphic-text-top,
+.graphic-text-bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
 }
